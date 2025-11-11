@@ -1,0 +1,64 @@
+{
+  "accounts": [
+    {
+      "id": "chequing",
+      "name": "Chequing Account",
+      "accountNumber": "**** 5678",
+      "balance": 3649.86,
+      "currency": "CAD",
+      "transactions": [
+        {
+          "id": "1",
+          "date": "2025-02-01",
+          "description": "Tim Hortons",
+          "amount": -6.50
+        },
+        {
+          "id": "2",
+          "date": "2025-01-30",
+          "description": "Pay Deposit",
+          "amount": 2100.00
+        },
+        {
+          "id": "3",
+          "date": "2025-01-28",
+          "description": "Amazon Purchase",
+          "amount": -45.99
+        },
+        {
+          "id": "4",
+          "date": "2025-01-25",
+          "description": "Grocery Store",
+          "amount": -125.30
+        },
+        {
+          "id": "5",
+          "date": "2025-01-20",
+          "description": "Direct Deposit - Salary",
+          "amount": 3500.00
+        }
+      ]
+    },
+    {
+      "id": "savings",
+      "name": "Savings Account",
+      "accountNumber": "**** 9012",
+      "balance": 2344.00,
+      "currency": "CAD",
+      "transactions": [
+        {
+          "id": "6",
+          "date": "2025-02-01",
+          "description": "Interest Payment",
+          "amount": 25.50
+        },
+        {
+          "id": "7",
+          "date": "2025-01-15",
+          "description": "Transfer from Chequing",
+          "amount": 500.00
+        }
+      ]
+    }
+  ]
+}
