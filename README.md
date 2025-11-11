@@ -1,7 +1,7 @@
 # banking_app
 
-A new Flutter project.
-
+This project is a Flutter mobile banking app inspired by RBC Mobile.
+It is built using GitHub Copilot to automatically generate code 
 ## Getting Started
 
 This project is a starting point for a Flutter application.
