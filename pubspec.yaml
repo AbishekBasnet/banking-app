@@ -1,0 +1,37 @@
+name: banking_app
+description: A mobile banking application inspired by RBC design using Flutter
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  # Package for date formatting (required for displaying today's date)
+  intl: ^0.18.1
+  
+  # MongoDB driver for Flutter
+  mongo_dart: ^0.9.3
+  
+  # For password hashing
+  crypto: ^3.0.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  # Enable Material Design
+  uses-material-design: true
+
+  # Assets configuration
+  # Include the accounts.json file from the assets folder
+  assets:
+    - assets/accounts.json
+    - assets/transactions.json
+    - assets/rbclogo.png
+    - assets/rbc_royal_bank.png
